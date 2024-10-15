@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import subprocess, os, random, string, sys, shutil, socket, zipfile, urllib2
+import subprocess, os, random, string, sys, shutil, socket, zipfile, urllib.request
 from itertools import cycle, izip
 from zipfile import ZipFile
 
