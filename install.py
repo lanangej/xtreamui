@@ -148,7 +148,7 @@ def mysql(rUsername, rPassword):
     printc("Enter MySQL Root Password:", col.WARNING)
     for i in range(5):
         rMySQLRoot = raw_input("  ")
-        print (" ")
+        print(" ")
         if len(rMySQLRoot) > 0: rExtra = " -p%s" % rMySQLRoot
         else: rExtra = ""
         printc("Drop existing & create database? Y/N", col.WARNING)
