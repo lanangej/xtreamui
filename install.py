@@ -241,7 +241,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     printc("Xtream UI - Installer Mirror", col.OKGREEN, 2)
-    print ("%s │ Check out the mirror repo: https://bitbucket.org/emre1393/xtreamui_mirror %s" % (col.OKGREEN, col.ENDC))
+    print("%s │ Check out the mirror repo: https://bitbucket.org/emre1393/xtreamui_mirror %s" % (col.OKGREEN, col.ENDC))
     print(" ")
     rType = raw_input("  Installation Type [MAIN, LB]: ")
     print(" ")
